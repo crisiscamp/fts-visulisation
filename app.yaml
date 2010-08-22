@@ -1,0 +1,11 @@
+application: fts-spreadsheet
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /step1.*
+  script: step1.py
+
+- url: /step2.*
+  script: step2.py
